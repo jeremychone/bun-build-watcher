@@ -1,6 +1,7 @@
 {
   "name": "bun-build-watcher",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "type": "module",
 
   "description": "Bun builder plugin. Will watch and redo the build when file change.",
   "repository": {
@@ -15,8 +16,7 @@
   "license": "MIT OR Apache-2.0",
 
   "module": "src/index.ts",
-  "type": "module",
-
+  "types": "src/",
 
   "devDependencies": {
     "bun-types": "latest"
