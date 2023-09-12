@@ -1,0 +1,31 @@
+{
+  "name": "bun-build-watcher",
+  "version": "0.1.0",
+
+  "description": "Bun builder plugin. Will watch and redo the build when file change.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeremychone/bun-build-watcher.git"
+  },  
+  "keyword": [
+    "bun plugin",
+    "builder",
+    "watch"
+  ],  
+  "license": "MIT OR Apache-2.0",
+
+  "module": "src/index.ts",
+  "type": "module",
+
+
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/lodash.debounce": "^4.0.7",
+    "lodash.debounce": "^4.0.8"
+  }
+}
